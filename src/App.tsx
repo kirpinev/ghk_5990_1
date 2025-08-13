@@ -66,7 +66,7 @@ export const App = () => {
               Ваши цели — больше, чем про деньги
             </Typography.TitleResponsive>
             <Typography.Text view="primary-medium" color="secondary">
-              Персональный ИИ-коуч, который поможет в исполнении мечты
+              Личный ИИ-коуч поможет вам исполнить мечту
             </Typography.Text>
           </div>
           <img src={dimond} alt="Картинка Альфа-Смарт" />
@@ -92,8 +92,7 @@ export const App = () => {
                 Пошаговый план к мечте
               </Typography.Text>
               <Typography.Text view="primary-small" color="secondary">
-                Коуч подскажет, с чего начать и какие шаги сделать, чтобы
-                достичь цели
+                Подскажет, с чего начать и как поэтапно добиться цели
               </Typography.Text>
             </div>
           </div>
@@ -113,11 +112,11 @@ export const App = () => {
                 color="primary"
                 weight="bold"
               >
-                Вдохновляет каждый день
+                Вдохновение каждый день
               </Typography.Text>
               <Typography.Text view="primary-small" color="secondary">
-                Лёгкие напоминания и поддержка, чтобы не потерять мотивацию на
-                пути
+                Будет присылать напоминания и поддерживать, чтобы сохранить
+                мотивацию
               </Typography.Text>
             </div>
           </div>
@@ -137,10 +136,10 @@ export const App = () => {
                 color="primary"
                 weight="bold"
               >
-                Вознаграждения за достижения
+                Награды за достижения
               </Typography.Text>
               <Typography.Text view="primary-small" color="secondary">
-                Получай ачивки и уровни, продвигаясь к лучшей версии себя
+                Помогает следить за прогрессом, повышая ваш уровень и ачивки
               </Typography.Text>
             </div>
           </div>
@@ -163,7 +162,7 @@ export const App = () => {
                 Пространство доверия
               </Typography.Text>
               <Typography.Text view="primary-small" color="secondary">
-                Делись мечтами в безопасной и понимающей среде
+                Ценит каждое ваше слово и никогда не осудит
               </Typography.Text>
             </div>
           </div>
@@ -179,7 +178,7 @@ export const App = () => {
           href=""
           onClick={() => setIsMoreClicked(true)}
         >
-          Создать свой план
+          Поставить цель
         </ButtonMobile>
       </div>
 
@@ -212,7 +211,7 @@ export const App = () => {
           weight="bold"
           style={{ textAlign: "center" }}
         >
-          Расскажите о себе и укажите цель
+          Расскажите о себе и вашей цели
         </Typography.TitleResponsive>
         <Gap size={16} />
 
@@ -223,7 +222,7 @@ export const App = () => {
 
             setValue(input.value);
           }}
-          label="Меня зовут Дима, я маркетолог и я хочу покорить Эверест"
+          label="Хочу покорить Эверест через год. Поможешь?"
           block={true}
           minRows={10}
           maxLength={500}
@@ -236,7 +235,7 @@ export const App = () => {
             color="negative"
             style={{ textAlign: "center" }}
           >
-            Заполните информацию о себе. На её основе мы составим пошаговый план
+            Заполните, чтобы получить план для цели
           </Typography.Text>
         )}
       </BottomSheet>
