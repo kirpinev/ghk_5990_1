@@ -63,7 +63,7 @@ export const App = () => {
               font="system"
               weight="bold"
             >
-              Ваши цели — больше, чем про деньги
+              Ваши цели — больше, чем деньги
             </Typography.TitleResponsive>
             <Typography.Text view="primary-medium" color="secondary">
               Личный ИИ-коуч поможет вам исполнить мечту
